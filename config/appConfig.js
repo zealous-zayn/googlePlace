@@ -8,7 +8,7 @@ appConfig.db = {
 }
 
 appConfig.apiVersion = '/api/v1';
-appConfig.googleKey = 'AIzaSyATi4UkST6MxHPx9rVaS0r90JwRhlyVQQY'
+appConfig.googleKey = 'Your_Google_Api_key'
 
 module.exports = {
     port : appConfig.port,

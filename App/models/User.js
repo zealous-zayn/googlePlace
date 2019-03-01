@@ -34,12 +34,12 @@ let userSchema = new Schema({
         default: 0
       },
       currentLocation : {
-          type : String,
-          default : ""
+         lat : {type:Number, default:""},
+         lng: {type:Number, default:""}
       },
       lastLocation : {
-          type : String,
-          default : ""
+        lat : {type:Number, default:""},
+        lng: {type:Number, default:""}
       },
       searchHistory : [{
           placeId:{type:String, default:""},
